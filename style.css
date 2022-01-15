@@ -1,3 +1,8 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f1ff;
+}
+
 /* container style */
 
 .contanier{
@@ -22,3 +27,16 @@
     border-radius: 40px;
     color: white;
 }
+
+
+/* Popular Collection */
+
+.fa-star.filled{
+    color: #FB8200;;
+}
+.collection-info{
+    display: flex;
+    align-items: center;
+    
+}
+
