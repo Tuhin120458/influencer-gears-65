@@ -30,6 +30,10 @@ body{
 
 
 /* Popular Collection */
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 
 .fa-star.filled{
     color: #FB8200;;
