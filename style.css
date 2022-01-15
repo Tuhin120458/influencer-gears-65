@@ -33,6 +33,8 @@ body{
 .collections{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    
 }
 
 .fa-star.filled{
@@ -43,4 +45,20 @@ body{
     align-items: center;
     
 }
+/* footer */
+.footer{
+    text-align: center;
+    margin-top: 70px;
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+}
+
+
+/* Media Querices */
+
+/* Mobile Devices */
+/* @media only screen and (max-width:688px) {
+
+} */
 
